@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyTube</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/play-video.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="black">
+        </div>
+
+        <nav class="navbar">
+            <div class="left-nav">
+                <div class="container-hamburger">
+                    <div class="hambuger-menu">
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <a href="/index.html">
+                    <div class="youtube-logo">
+                        <img src="/img/youtube-logo.png" alt="">
+                        <span class="crazytube">CrazyTube</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="center-nav">
+
+                <input type="text" name="Search" class="search-input" placeholder="Search.." >
+            
+                <button class="search-button tooltip-container">
+                    <img src="/img/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                    <div class="membuka-search">
+                        <img src="/img/back-icon.png" alt="">
+                    </div>    
+                </button>
+
+                
+                <button class="microfon tooltip-container">
+                    <img src="/img/voice-search-icon.svg" alt="">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            
+            <div class="right-nav">
+                <div class="upload tooltip-container">
+                    <img src="/img/upload.svg" alt="">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="notification tooltip-container">
+                    <img src="/img/notifications.svg" alt="">
+                    <div class="amount-of-notification">1</div>
+                    <div class="tooltip">Notification</div>
+                </div>
+                <div class="my-channel">
+                    <img src="/img/my-channel.jpg" alt="">
+                </div>
+            </div>
+
+        </nav>
+        
+        <div class="sidebar">
+            <div class="sidebar-part">
+                <a href="/index.html">
+                    <div class="sidebar-inside homepage">
+                        <img src="/img/home.svg" alt="">
+                        <p>Home Page</p>
+                    </div>
+                </a>
+                <div class="sidebar-inside">
+                    <img src="/img/short-logo.svg" alt="">
+                    <p>Shorts</p>
+                </div>
+                <div class="sidebar-inside">
+                    <img src="/img/subscriptions.svg" alt="">
+                    <p>Subscription</p>
+                </div>
+                <hr>
+                <div class="sidebar-inside heading-sidebar">
+                    <h3>You &gt;</h3>
+                </div>
+                <div class="sidebar-inside">
+                    <img src="/img/recent-repeat-icon.svg" alt="">
+                    <p>History</p>
+                </div>
+                <div class="sidebar-inside">
+                    <img src="/img/watch-later.svg" alt="">
+                    <p>Watch Later</p>
+                </div>
+                <div class="sidebar-inside">
+                    <img src="/img/like.svg" alt="">
+                    <p>Liked Videos</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-part">
+                <div class="sidebar-inside heading-sidebar">
+                    <h3>Subscriptions</h3>
+                </div>
+                <div class="sidebar-inside channel-subsription">
+                    <img src="/img/mrbeast-channel.jpg" alt="">
+                    <p>Mrbeast</p>
+                </div>
+                <div class="sidebar-inside channel-subsription">
+                    <img src="/img/rafli-syailendra-channel.jpg" alt="">
+                    <p>Rafli Syailendra</p>
+                </div>
+                <div class="sidebar-inside channel-subsription">
+                    <img src="/img/wonderful-indonesia-channel.jpg" alt="">
+                    <p>Wonderful Indonesia</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-video">
+            
+                <div class="main-video">
+                    <div class="play-video">
+                        <video controls autoplay>
+                            <source src="/video/video-5.mp4">
+                        </video>
+                    </div>
+
+                    <!-- INI PERLU DIGANTI -->
+
+                    <div class="main-video-info">
+                        <h2 class="title-video">Tokyo - japan</h2>
+                        <div class="title-video-info">
+                            <div class="left-titleinfo">
+                                <div class="title-channel">
+                                    <img src="/img/rafli-syailendra-channel.jpg" alt="">
+                                </div>
+                                <div class="channel-info">
+                                    <h3>Rafli Syailendra</h3>
+                                    <p>1 million subscribers</p>
+                                </div>
+                                <button class="join-button">Join</button>
+                                <button class="subscribe-button">Subscribe</button>
+                            </div>
+
+                            <!-- END -->
+                            
+                            <div class="right-titleinfo">
+                                <button class="like-button tooltip-container">
+                                    <img src="/img/like.png" alt="">
+                                    <h3>1,2 M</h3>
+                                    <div class="tooltip">I Like This</div>
+                                </button>
+                                <button class="dislike-button tooltip-container">
+                                    <img src="/img/dislike.png" alt="">
+                                    <div class="tooltip">I Dont Like This</div>
+                                </button>
+                                <button class="share-button tooltip-container">
+                                    <img src="/img/share.png" alt="">
+                                    <h3>Share</h3>
+                                    <div class="tooltip">Share</div>
+                                </button>
+                                <button class="download-button tooltip-container">
+                                    <img src="/img/donwload.png" alt="">
+                                    <h3>Downloads</h3>
+                                    <div class="tooltip">Downloads</div>
+                                </button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="description">
+                            <h4>101 million views 1 months ago</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit nesciunt ullam aliquam tenetur et fugiat voluptates omnis nostrum neque dolorum earum quas necessitatibus eaque consectetur voluptatum deserunt illum magnam quis corrupti, vitae ut facilis excepturi? Amet eaque nulla voluptatem nam facere quo id unde, placeat eum praesentium numquam temporibus.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="right-sidebar">
+
+                    <div class="side-video-list">
+                        <a href="video1.html" class="thumbnail"><img src="/img/thumb-1.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video1.html">
+                                <h3 class="heading-side">Mountain and Forest Activities Taiwan Tourism</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">1 million views &#183; 1 days ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video2.html" class="thumbnail"><img src="/img/thumb-2.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video2.html">
+                                <h3 class="heading-side">Wonderful Indonesia - Nature</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">217 million views &#183; 1 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video3.html" class="thumbnail"><img src="/img/thumb-3.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video3.html">
+                                <h3 class="heading-side">Bali view in 30 seconds</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">100 million views &#183; 2 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+ 
+                    <div class="side-video-list">
+                        <a href="video4.html" class="thumbnail"><img src="/img/thumb-4.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video4.html">
+                                <h3 class="heading-side">The girl's adventure animation</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">20 million views &#183; 1 months ago</p>   
+                            </a>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="video1.html" class="thumbnail"><img src="/img/thumb-1.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video1.html">
+                                <h3 class="heading-side">Mountain and Forest Activities Taiwan Tourism</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">1 million views &#183; 1 days ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video2.html" class="thumbnail"><img src="/img/thumb-2.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video2.html">
+                                <h3 class="heading-side">Wonderful Indonesia - Nature</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">217 million views &#183; 1 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video3.html" class="thumbnail"><img src="/img/thumb-3.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video3.html">
+                                <h3 class="heading-side">Bali view in 30 seconds</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">100 million views &#183; 2 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+ 
+                    <div class="side-video-list">
+                        <a href="video4.html" class="thumbnail"><img src="/img/thumb-4.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video4.html">
+                                <h3 class="heading-side">The girl's adventure animation</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">20 million views &#183; 1 months ago</p>   
+                            </a>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="video1.html" class="thumbnail"><img src="/img/thumb-1.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video1.html">
+                                <h3 class="heading-side">Mountain and Forest Activities Taiwan Tourism</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">1 million views &#183; 1 days ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video2.html" class="thumbnail"><img src="/img/thumb-2.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video2.html">
+                                <h3 class="heading-side">Wonderful Indonesia - Nature</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">217 million views &#183; 1 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="video3.html" class="thumbnail"><img src="/img/thumb-3.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video3.html">
+                                <h3 class="heading-side">Bali view in 30 seconds</h3>
+                                <p class="channel-name">Wonderful Indonesia</p>
+                                <p class="view-and-year">100 million views &#183; 2 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+ 
+                    <div class="side-video-list">
+                        <a href="video4.html" class="thumbnail"><img src="/img/thumb-4.webp" alt=""></a>
+                        <div class="video-description">
+                            <a href="video4.html">
+                                <h3 class="heading-side">The girl's adventure animation</h3>
+                                <p class="channel-name">Rafli Syailendra</p>
+                                <p class="view-and-year">20 million views &#183; 1 months ago</p>   
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="video-comment">
+                    <div class="comment-header">
+                        <h2>3 Comments</h2>
+                    </div>
+
+                    <div class="user-comment">
+                        <img src="/img/my-channel.jpg" alt="">
+                        <div class="container-input-text">
+                            <input type="text" name="" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                    
+                    <div class="people-comment">
+                        <div class="people">
+                            <img class="people-channel" src="/img/mrbeast-channel.jpg" alt="">
+                            <div class="people-info">
+                                <div class="header-people">
+                                    <h4>@MrBeast</h4>
+                                    <p>&#10003;</p>
+                                    <p>1 day ago</p>
+                                </div>
+                                <div class="comment-people">
+                                    <p>WOW Wonderful!</p>
+                                </div>
+                                <div class="button-people">
+                                    <button class="people-like tooltip-container">
+                                        <img src="/img/like.png" alt="">
+                                        <div class="tooltip">Like</div>
+                                    </button>
+                                    <span>10 thousand</span>
+                                    <button class="people-dislike tooltip-container">
+                                        <img src="/img/dislike.png" alt="">
+                                        <div class="tooltip">Do not like</div>
+                                    </button>
+                                    <button class="people-reply">
+                                        <h4>Reply</h4>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-replies">
+                            <button class="replies">
+                                <img src="" alt="">
+                                <span>1 Replies</span>
+                            </button>
+                            <div class="people-replies">
+                                <img class="people-channel" src="/img/rafli-syailendra-channel.jpg" alt="">
+                                <div class="people-info">
+                                    <div class="header-people">
+                                        <h4>@raflisyailendra</h4>
+                                        <p>&#10003;</p>
+                                        <p>1 day ago</p>
+                                    </div>
+                                    <div class="comment-people">
+                                        <p>Wow Mrbeast</p>
+                                    </div>
+                                    <div class="button-people">
+                                        <button class="people-like">
+                                            <img src="/img/like.png" alt="">
+                                        </button>
+                                        <span>100</span>
+                                        <button class="people-dislike">
+                                            <img src="/img/dislike.png" alt="">
+                                        </button>
+                                        <button class="people-reply">
+                                            <h4>Reply</h4>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="people-comment">
+                        <div class="people">
+                            <img class="people-channel" src="/img/melampaui-batas-channel.jpg" alt="">
+                            <div class="people-info">
+                                <div class="header-people">
+                                    <h4>@MelampauiBatas100</h4>
+                                    <p>&#10003;</p>
+                                    <p>1 day ago</p>
+                                </div>
+                                <div class="comment-people">
+                                    <p>That's Beautiful</p>
+                                </div>
+                                <div class="button-people">
+                                    <button class="people-like">
+                                        <img src="/img/like.png" alt="">
+                                    </button>
+                                    <span>1 thousand</span>
+                                    <button class="people-dislike">
+                                        <img src="/img/dislike.png" alt="">
+                                    </button>
+                                    <button class="people-reply">
+                                        <h4>Reply</h4>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+    <script src="/script/scriptvideo.js"></script>
+</body>
+</html>
